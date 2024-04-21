@@ -1,0 +1,23 @@
+.create-note-form {
+    display: flex;
+    gap: 6px;
+    padding: 12px;
+    width: fit-content;
+}
+
+.create-note-form_text-input {
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    height: 36px;
+    border-radius: 0;
+}
+
+.create-note-form_submit-button {
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    color: white;
+    background-image: linear-gradient(0.149turn,rgba(8,40,105,1) 0%,rgba(25,63,159,1) 60%,rgba(8,38,92,1) 100%);
+
+}
