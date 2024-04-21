@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/VSporte-test/static/css/main.abbfcdc5.css",
-    "main.js": "/VSporte-test/static/js/main.d5f8ba9c.js",
+    "main.css": "/VSporte-test/static/css/main.199136a5.css",
+    "main.js": "/VSporte-test/static/js/main.d96b1742.js",
     "static/media/logo.svg": "/VSporte-test/static/media/logo.7a978b3969d6601ee6c066b108b576d1.svg",
     "index.html": "/VSporte-test/index.html",
-    "main.abbfcdc5.css.map": "/VSporte-test/static/css/main.abbfcdc5.css.map",
-    "main.d5f8ba9c.js.map": "/VSporte-test/static/js/main.d5f8ba9c.js.map"
+    "main.199136a5.css.map": "/VSporte-test/static/css/main.199136a5.css.map",
+    "main.d96b1742.js.map": "/VSporte-test/static/js/main.d96b1742.js.map"
   },
   "entrypoints": [
-    "static/css/main.abbfcdc5.css",
-    "static/js/main.d5f8ba9c.js"
+    "static/css/main.199136a5.css",
+    "static/js/main.d96b1742.js"
   ]
 }
