@@ -1,0 +1,14 @@
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 6px 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.notes-list__nothing-found {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}

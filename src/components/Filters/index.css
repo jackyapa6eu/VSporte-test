@@ -1,0 +1,16 @@
+.filters-container {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    padding: 12px;
+}
+
+.filters-container__select {
+    height: 36px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 0;
+    padding: 0 12px;
+}

@@ -1,6 +1,6 @@
 import { memo, useContext, useState } from 'react';
-import { NotesContest } from '../../App';
 import './index.css';
+import { NotesContest } from '../../contexts/NotesContext';
 
 const CreateNewNoteItemForm = () => {
   const [newNoteText, setNewNoteText] = useState('');
@@ -16,7 +16,7 @@ const CreateNewNoteItemForm = () => {
     const noteNoteItem = {
       id: Date.now(),
       description: newNoteText,
-      checked: false,
+      status: 'active',
     };
     dispatch({ type: 'createNoteItem', payload: noteNoteItem });
     setNewNoteText('');
@@ -30,7 +30,11 @@ const CreateNewNoteItemForm = () => {
         value={newNoteText}
         onChange={handleNewNoteText}
       />
-      <button className='create-note-form_submit-button' type='submit'>
+      <button
+        className='create-note-form_submit-button'
+        type='submit'
+        disabled={!newNoteText.length}
+      >
         ДОБАВИТЬ
       </button>
     </form>

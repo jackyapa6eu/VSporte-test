@@ -1,0 +1,43 @@
+.notes-list__item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #062253;
+    background: white;
+    padding: 12px;
+    align-items: center;
+}
+
+.notes-list__checkbox {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.notes-list__checkbox-label {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    outline: 2px solid rgba(25,63,159,1);
+
+    border: 2px solid white;
+}
+
+.notes-list__checkbox-label_checked {
+    background: rgba(25,63,159,1)
+}
+
+.notes-list__item-text {
+    margin: 0;
+}
+
+.notes-list__delete-button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.notes-list__delete-button:hover {
+    color: rgba(25,63,159,1);
+}
