@@ -25,4 +25,4 @@
 5. Откройте браузер и перейдите по адресу `http://localhost:3000` для просмотра проекта в реальном времени.
 
 ## Деплой
-Проект доступен по [ссылке](https://jackyapa6eu.github.io/VSporte-test/){:target="_blank"}.
+Проект доступен по [ссылке](https://jackyapa6eu.github.io/VSporte-test/).
