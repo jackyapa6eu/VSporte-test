@@ -18,7 +18,7 @@ const NotesListItem = ({ index, noteData }) => {
 
   return (
     <div className='notes-list__item'>
-      <div style={{ display: 'flex', gap: '6px' }}>
+      <div className='notes-list__checkbox-text-container'>
         <label
           htmlFor='notes-list-checkbox'
           className={`${'notes-list__checkbox-label'} ${
@@ -34,8 +34,8 @@ const NotesListItem = ({ index, noteData }) => {
           />
         </label>
         <p className='notes-list__item-text'>
-          <span>{index}.</span>
-          {noteData.description}
+          <span className='notes-list__item-number'>{index}.</span>
+          <span>{noteData.description}</span>
         </p>
       </div>
 

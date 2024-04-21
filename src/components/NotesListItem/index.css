@@ -6,6 +6,18 @@
     background: white;
     padding: 12px;
     align-items: center;
+    gap: 6px;
+}
+
+.notes-list__item-number {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.notes-list__checkbox-text-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
 }
 
 .notes-list__checkbox {
@@ -28,6 +40,7 @@
 
 .notes-list__item-text {
     margin: 0;
+    word-break: break-word;
 }
 
 .notes-list__delete-button {

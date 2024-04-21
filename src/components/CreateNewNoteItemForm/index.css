@@ -11,6 +11,7 @@
     padding: 0 12px;
     height: 36px;
     border-radius: 0;
+    width: 220px;
 }
 
 .create-note-form_submit-button {
@@ -25,4 +26,10 @@
 .create-note-form_submit-button:disabled {
     opacity: 0.5;
     cursor: default;
+}
+
+@media screen and (max-width: 400px){
+    .create-note-form_text-input {
+        width: 100%;
+    }
 }
